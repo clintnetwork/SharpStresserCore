@@ -68,7 +68,6 @@ namespace SharpStresser
             {
                 if(_actualThreadNumber < _threadPoolSize)
                 {
-                    Console.WriteLine(_actualThreadNumber);
                     new Thread(ThreadProc).Start();
                 }
             }

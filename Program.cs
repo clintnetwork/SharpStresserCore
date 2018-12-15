@@ -10,7 +10,7 @@ namespace ExampleProgram
         {
             var stresser = new SharpStresserCore()
                 .SetupThreadPool(100)
-                .DefineTargetUri("http://google.com")
+                .DefineTargetUri("http://hasard.io")
                 .LoadUserAgentsFromFile("UserAgents.txt")
                 .Run();
         }
