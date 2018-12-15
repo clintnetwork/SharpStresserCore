@@ -1,4 +1,4 @@
-# SharpStresser
+# SharpStresserCore
 
 It's a small HTTP stresser that allows you to make multiple requests on the URL of your choice and it's coded in C# for the .Net Core framework.
 
